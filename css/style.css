@@ -45,12 +45,24 @@ main {
     padding: 8px;
 }
 
+.usuario:hover {
+    border: 1px solid rgb(95, 168, 250);
+}
+
+.senha:hover {
+    border: 1px solid rgb(95, 168, 250);
+}
+
 .link {
     font-size: 16px;
     line-height: 32px;
     font-weight: 600;
     color: #0a66c2;
     text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(95, 168, 250);
 }
 
 .esquesio-senha {
@@ -68,12 +80,26 @@ main {
     margin-top: 16px;
 }
 
+.login:hover {
+    background-color: rgb(95, 168, 250);
+    border: 1px solid rgb(141, 141, 141);
+}
+
 .cria-conta {
     margin-top: 20px;
 }
 
 footer {
     display: none;
+}
+
+.a {
+    text-decoration: none;
+    color: #0073b1;
+}
+
+.a:hover {
+    color: rgb(95, 168, 250);
 }
 
 @media screen and (min-width: 770px) {
